@@ -13,10 +13,6 @@ pub fn hello_macro_derive(input: TokenStream) -> TokenStream {
             fn hello_macro() {
                 println!("Hello, Macro! My name is {}!", stringify!(#name));
             }
-
-            fn hello_macro_2() {
-                println!("Hello, Macro 2! My name is {}!", stringify!(#name));
-            }
         }
     };
 
