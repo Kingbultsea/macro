@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "cargo": {
+                "args": [
+                    "build"
+                ],
+                "filter": {
+                    "name": "hello_macro"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/target/debug/hello_macro",
+            "sourceLanguages": [
+                "rust"
+            ]
+        }
+    ]
+}

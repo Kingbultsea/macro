@@ -1,3 +1,3 @@
-mod abc {
-    pub fn use_abc() {}
+pub fn use_abc() {
+    println!("use abc logs");
 }
