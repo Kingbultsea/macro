@@ -1,3 +1,5 @@
+mod mod_2;
+
 // pub mod作用
 pub fn init() {
     use crate::dir_1::dir_1_file::call_my_name;

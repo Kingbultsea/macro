@@ -1,7 +1,9 @@
 mod abc;
 mod impl_l;
 
-mod dir_2;
+mod dir_2 {
+    pub mod pub_mod;
+}
 
 mod dir_1;
 
@@ -24,8 +26,9 @@ fn main() {
     impl_l::hello_impl();
 
     dir_1::dir_1_file::call_my_name();
-    dir_2::pub_mod::init();
 
     person.my_name();
     person.my_years();
+
+    dir_2::pub_mod::init();
 }
