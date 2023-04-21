@@ -3,9 +3,15 @@ mod impl_l;
 
 mod dir_2 {
     pub mod pub_mod;
+
+    pub mod child;
 }
 
-mod dir_1;
+mod dir_1 {
+    pub mod my_app;
+    pub mod dir_1_file;
+    pub mod dir_2_file;
+}
 
 // 需要定义个crate 知道使用了宏里面的哪些方法
 use hello_macro::HelloMacro;

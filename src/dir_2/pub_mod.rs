@@ -1,4 +1,5 @@
-mod mod_2;
+// 直接引用 需要在crate root中定义了
+use crate::dir_2::child::child;
 
 // pub mod作用
 pub fn init() {
@@ -10,4 +11,6 @@ pub fn init() {
 
     use crate::dir_1::my_app::use_my_app_1;
     use_my_app_1();
+
+    child();
 }
