@@ -1,14 +1,13 @@
 mod abc;
 mod impl_l;
 
+mod dir_2;
+
+mod dir_1;
+
 // 需要定义个crate 知道使用了宏里面的哪些方法
 use hello_macro::HelloMacro;
 use hello_macro_derive::HelloMacro;
-
-enum Lang {
-    English,
-    Russian,
-}
 
 #[derive(HelloMacro)]
 struct Pancakes;
@@ -21,6 +20,11 @@ fn main() {
         name: String::from("liliya"),
         years: 8,
     };
+
+    impl_l::hello_impl();
+
+    dir_1::dir_1_file::call_my_name();
+    dir_2::pub_mod::init();
 
     person.my_name();
     person.my_years();

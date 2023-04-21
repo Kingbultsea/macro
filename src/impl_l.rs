@@ -14,3 +14,7 @@ impl Person {
         print!("{}", self.years);
     }
 }
+
+pub fn hello_impl() {
+    println!("123");
+}
