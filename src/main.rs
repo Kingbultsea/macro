@@ -1,6 +1,8 @@
 mod abc;
 mod impl_l;
 
+mod trait_l;
+
 mod dir_2 {
     pub mod pub_mod;
 
@@ -35,6 +37,8 @@ fn main() {
 
     person.my_name();
     person.my_years();
+
+    trait_l::borrow_trait::run_b();
 
     dir_2::pub_mod::init();
 }
