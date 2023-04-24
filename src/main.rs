@@ -39,6 +39,8 @@ fn main() {
     person.my_years();
 
     trait_l::borrow_trait::run_b();
+    trait_l::pair::run_pair();
+    trait_l::latest::run_latest();
 
     dir_2::pub_mod::init();
 }
