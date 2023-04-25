@@ -18,6 +18,7 @@ mod dir_1 {
 // 需要定义个crate 知道使用了宏里面的哪些方法
 use hello_macro::HelloMacro;
 use hello_macro_derive::HelloMacro;
+use trait_l::borrow_trait::People;
 
 #[derive(HelloMacro)]
 struct Pancakes;
@@ -38,9 +39,11 @@ fn main() {
     person.my_name();
     person.my_years();
 
-    trait_l::borrow_trait::run_b();
+    let pepole = trait_l::borrow_trait::run_b();
+    pepole.my_sex();
     trait_l::pair::run_pair();
     trait_l::latest::run_latest();
 
     dir_2::pub_mod::init();
+    trait_l::trait_struct::run_trait_struct();
 }
