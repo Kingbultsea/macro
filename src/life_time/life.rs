@@ -42,6 +42,9 @@ fn run_import_excerpt() {
 }
 
 // 'a: 'b,的意思就是a必须要比b活得久
+struct ImportantExcerpt2<'a> {
+    part: &'a str
+}
 impl<'a: 'b, 'b> ImportantExcerpt2<'a> {
     fn announce_and_return_part(&'a self, announcement: &'b str) -> &'b str {
         println!("Attention please: {}", announcement);
