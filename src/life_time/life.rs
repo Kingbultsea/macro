@@ -27,3 +27,49 @@ pub fn life_test() {
         println!("最大值为 2: {}", longest_num);
     }
 }
+
+// 该生命周期标注说明，结构体 ImportantExcerpt 所引用的字符串 str 必须比该结构体活得更久
+struct ImportantExcerpt<'a> {
+    part: &'a str
+}
+
+fn run_import_excerpt() {
+    let a = String::from("asdasd");
+
+    let c = ImportantExcerpt{
+        part: a.as_str()
+    };
+}
+
+// 'a: 'b,的意思就是a必须要比b活得久
+impl<'a: 'b, 'b> ImportantExcerpt2<'a> {
+    fn announce_and_return_part(&'a self, announcement: &'b str) -> &'b str {
+        println!("Attention please: {}", announcement);
+        self.part
+    }
+}
+
+// struct ImportantExcerpt<'a> {
+//     part: &'a str,
+// }
+// 
+// impl<'a, 'b> ImportantExcerpt<'a> {
+//     fn announce_and_return_part(&'a self, announcement: &'b str) -> &'b str 
+//     where
+//         'a: 'b,
+//     {
+//         println!("Attention please: {}", announcement);
+//         self.part
+//     }
+// }
+// 
+// fn main() {
+//     let s0 = "one";
+//     let s2;
+//     {
+//         let s1 = "two";
+//         let st = ImportantExcerpt{part: s1};
+//         s2 = st.announce_and_return_part(s0);  // error: borrowed value does not live long enough
+//     }  // 'a 结束 `st` dropped here while still borrowed
+//     println!("{}", s2);  // borrow later used here
+// }  // 'b 结束
