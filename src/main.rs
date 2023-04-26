@@ -3,6 +3,8 @@ mod impl_l;
 
 mod trait_l;
 
+mod life_time;
+
 mod dir_2 {
     pub mod pub_mod;
 
@@ -43,7 +45,18 @@ fn main() {
     pepole.my_sex();
     trait_l::pair::run_pair();
     trait_l::latest::run_latest();
+    trait_l::outline_print::run_outline_print();
+    trait_l::wrapper::run_wrapper();
 
     dir_2::pub_mod::init();
     trait_l::trait_struct::run_trait_struct();
+
+    let mut abc = String::from("aasdas");
+
+    let borrow_mut_abc = &mut abc;
+
+    borrow_mut_abc.push_str("asd");
+    abc.push_str("abcdef");
+    
+    life_time::life::run_life();
 }
