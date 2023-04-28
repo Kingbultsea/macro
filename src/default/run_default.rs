@@ -46,3 +46,15 @@ pub fn run_default() {
 
     println!("{:?}", person);
 }
+
+struct ImportantExcerpt<'a> {
+    part: &'a str,
+}
+
+// 一定要约束b，不然默认和self一样为a
+impl<'a: 'b, 'b> ImportantExcerpt<'a> {
+    fn announce_and_return_part(&'a self, announcement: &'b str) -> &'b str {
+        println!("Attention please: {}", announcement);
+        self.part
+    }
+}
