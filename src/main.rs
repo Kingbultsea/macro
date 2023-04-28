@@ -63,4 +63,5 @@ fn main() {
     life_time::life::run_life();
 
     default::run_default::run_default();
+    default::re_borrow::re_borrow();
 }

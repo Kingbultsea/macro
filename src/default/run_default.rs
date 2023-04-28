@@ -45,6 +45,7 @@ pub fn run_default() {
     person.age = 30;
 
     println!("{:?}", person);
+    try_null();
 }
 
 struct ImportantExcerpt<'a> {
@@ -57,4 +58,19 @@ impl<'a: 'b, 'b> ImportantExcerpt<'a> {
         println!("Attention please: {}", announcement);
         self.part
     }
+}
+
+fn try_null() {
+    let mut s = String::from("hello");
+
+    let r1 = &s;
+    let r2 = &s;
+
+    println!("{} and {}", r1, r2);
+    // 新编译器中，r1,r2作用域在这里结束
+
+    s.push_str("abd");
+
+    let r3 = &mut s;
+    println!("查看版本{}", r3);
 }
