@@ -17,6 +17,8 @@ mod dir_1 {
     pub mod dir_2_file;
 }
 
+mod default;
+
 // 需要定义个crate 知道使用了宏里面的哪些方法
 use hello_macro::HelloMacro;
 use hello_macro_derive::HelloMacro;
@@ -59,4 +61,6 @@ fn main() {
     abc.push_str("abcdef");
     
     life_time::life::run_life();
+
+    default::run_default::run_default();
 }

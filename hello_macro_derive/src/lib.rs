@@ -22,6 +22,7 @@ pub fn hello_macro_derive(input: TokenStream) -> TokenStream {
     gen.into()
 }
 
+#[warn(unused_macros)]
 macro_rules! emit {
     ($tokens:expr) => {
         // 该 trait 提供了处理 Rust 编译器诊断信息的扩展方法
