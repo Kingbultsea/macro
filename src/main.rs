@@ -68,4 +68,5 @@ fn main() {
 
     closure::main::run_closure();
     closure::cache::run_cache();
+    closure::fn_mut::run_fn_mut();
 }
