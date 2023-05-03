@@ -1,3 +1,4 @@
+mod closure;
 mod abc;
 mod impl_l;
 
@@ -64,4 +65,7 @@ fn main() {
 
     default::run_default::run_default();
     default::re_borrow::re_borrow();
+
+    closure::main::run_closure();
+    closure::cache::run_cache();
 }
