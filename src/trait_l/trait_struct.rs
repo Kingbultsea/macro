@@ -29,6 +29,7 @@ impl Draw for Button {
 }
 
 struct Screen {
+    // Draw内的方法不能返回Self，因为它们的大小是不确定的，编译器无法为它们分配内存。
     components: Vec<Box<dyn Draw>>,
 }
 

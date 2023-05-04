@@ -1,3 +1,4 @@
+mod iterator;
 mod closure;
 mod abc;
 mod impl_l;
@@ -69,4 +70,5 @@ fn main() {
     closure::main::run_closure();
     closure::cache::run_cache();
     closure::fn_mut::run_fn_mut();
+    iterator::run::run_iteraotr();
 }
