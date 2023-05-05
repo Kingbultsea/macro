@@ -1,3 +1,4 @@
+mod cons;
 mod iterator;
 mod closure;
 mod abc;
@@ -71,4 +72,6 @@ fn main() {
     closure::cache::run_cache();
     closure::fn_mut::run_fn_mut();
     iterator::run::run_iteraotr();
+
+    cons::run_cons::run_rs();
 }
