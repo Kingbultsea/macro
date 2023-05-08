@@ -1,4 +1,7 @@
 mod cons;
+mod cell {
+    pub mod run_cell;
+}
 mod rc;
 mod iterator;
 mod closure;
@@ -77,4 +80,5 @@ fn main() {
 
     cons::run_cons::run_rs();
     rc::run_rc::main();
+    cell::run_cell::main();
 }
