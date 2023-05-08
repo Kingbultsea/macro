@@ -1,0 +1,12 @@
+/Users/dorho/Desktop/rust-work-place/hello_macro/hello-rocket/target/debug/deps/state-ae8c5bccf39f4ca6.rmeta: /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/lib.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/ident_hash.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/storage.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/init.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/shim.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/container.rs
+
+/Users/dorho/Desktop/rust-work-place/hello_macro/hello-rocket/target/debug/deps/libstate-ae8c5bccf39f4ca6.rlib: /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/lib.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/ident_hash.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/storage.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/init.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/shim.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/container.rs
+
+/Users/dorho/Desktop/rust-work-place/hello_macro/hello-rocket/target/debug/deps/state-ae8c5bccf39f4ca6.d: /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/lib.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/ident_hash.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/storage.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/init.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/shim.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/container.rs
+
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/lib.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/ident_hash.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/storage.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/init.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/shim.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/state-0.5.3/src/container.rs:

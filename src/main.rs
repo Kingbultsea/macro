@@ -1,8 +1,10 @@
 mod cons;
+mod rc;
 mod iterator;
 mod closure;
 mod abc;
 mod impl_l;
+mod run_rocket;
 
 mod trait_l;
 
@@ -74,4 +76,5 @@ fn main() {
     iterator::run::run_iteraotr();
 
     cons::run_cons::run_rs();
+    rc::run_rc::main();
 }

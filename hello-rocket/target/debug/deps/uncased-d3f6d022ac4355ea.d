@@ -1,0 +1,11 @@
+/Users/dorho/Desktop/rust-work-place/hello_macro/hello-rocket/target/debug/deps/uncased-d3f6d022ac4355ea.rmeta: /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/lib.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/serde.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/owned.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/borrowed.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/as_uncased.rs
+
+/Users/dorho/Desktop/rust-work-place/hello_macro/hello-rocket/target/debug/deps/libuncased-d3f6d022ac4355ea.rlib: /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/lib.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/serde.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/owned.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/borrowed.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/as_uncased.rs
+
+/Users/dorho/Desktop/rust-work-place/hello_macro/hello-rocket/target/debug/deps/uncased-d3f6d022ac4355ea.d: /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/lib.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/serde.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/owned.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/borrowed.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/as_uncased.rs
+
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/lib.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/serde.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/owned.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/borrowed.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uncased-0.9.7/src/as_uncased.rs:

@@ -1,0 +1,10 @@
+/Users/dorho/Desktop/rust-work-place/hello_macro/hello-rocket/target/debug/deps/proc_macro2_diagnostics-f0675e796528f4f7.rmeta: /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/lib.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/ext.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/diagnostic.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/line.rs
+
+/Users/dorho/Desktop/rust-work-place/hello_macro/hello-rocket/target/debug/deps/libproc_macro2_diagnostics-f0675e796528f4f7.rlib: /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/lib.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/ext.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/diagnostic.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/line.rs
+
+/Users/dorho/Desktop/rust-work-place/hello_macro/hello-rocket/target/debug/deps/proc_macro2_diagnostics-f0675e796528f4f7.d: /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/lib.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/ext.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/diagnostic.rs /Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/line.rs
+
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/lib.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/ext.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/diagnostic.rs:
+/Users/dorho/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-diagnostics-0.10.0/src/line.rs:
