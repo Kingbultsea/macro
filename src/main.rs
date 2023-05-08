@@ -81,4 +81,6 @@ fn main() {
     cons::run_cons::run_rs();
     rc::run_rc::main();
     cell::run_cell::main();
+    cons::circle_cons::main();
+    cons::weak::main();
 }
