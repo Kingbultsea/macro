@@ -92,4 +92,5 @@ fn main() {
     // thread::try_recv::main_4();
 
     mutex::mutex::main();
+    mutex::mutex::main_2();
 }

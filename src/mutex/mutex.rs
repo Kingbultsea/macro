@@ -15,3 +15,18 @@ pub fn main() {
 
     println!("m = {:?}", v);
 }
+
+pub fn main_2() {
+    let m = Mutex::new(5);
+
+    let mut num = m.lock().unwrap();
+    *num = 6;
+    // 锁还没有被 drop 就尝试申请下一个锁，导致主线程阻塞
+    drop(num); // 手动 drop num ，可以让 num1 申请到下个锁
+
+    let mut num1 = m.lock().unwrap();
+    *num1 = 7;
+    drop(num1); // 手动 drop num1 ，观察打印结果的不同
+
+    println!("m = {:?}", m.into_inner().unwrap());
+}
