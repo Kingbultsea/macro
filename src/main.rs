@@ -84,4 +84,8 @@ fn main() {
     cell::run_cell::main();
     cons::circle_cons::main();
     cons::weak::main();
+    thread::try_recv::main();
+    thread::try_recv::mian_2();
+    thread::try_recv::main_3();
+    thread::try_recv::main_4();
 }
