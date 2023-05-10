@@ -1,4 +1,6 @@
 mod cons;
+mod atomic;
+mod tokio;
 mod mutex;
 mod thread;
 mod cell {
@@ -93,4 +95,10 @@ fn main() {
 
     mutex::mutex::main();
     mutex::mutex::main_2();
+    mutex::mutex::main_3();
+
+    tokio::main::main();
+
+    // atomic::main::main();
+    atomic::ordering_release::main();
 }
