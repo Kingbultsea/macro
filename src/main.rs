@@ -101,4 +101,5 @@ fn main() {
 
     // atomic::main::main();
     atomic::ordering_release::main();
+    atomic::release_acquire::main();
 }
