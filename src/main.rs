@@ -1,4 +1,5 @@
 mod cons;
+mod bare_pointer;
 mod atomic;
 mod tokio;
 mod mutex;
@@ -102,4 +103,6 @@ fn main() {
     // atomic::main::main();
     atomic::ordering_release::main();
     atomic::release_acquire::main();
+
+    bare_pointer::main::main();
 }
