@@ -320,6 +320,7 @@ name = "hello_macro"
 version = "0.1.0"
 dependencies = [
  "hello_macro_derive",
+ "lazy_static",
  "rocket",
  "tokio",
 ]

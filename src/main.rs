@@ -1,4 +1,5 @@
 mod cons;
+mod box_leak;
 mod bare_pointer;
 mod atomic;
 mod tokio;
@@ -105,4 +106,5 @@ fn main() {
     atomic::release_acquire::main();
 
     bare_pointer::main::main();
+    box_leak::main::main();
 }
