@@ -1,4 +1,5 @@
 mod cons;
+mod async_doc;
 mod box_leak;
 mod bare_pointer;
 mod atomic;
@@ -107,4 +108,6 @@ fn main() {
 
     bare_pointer::main::main();
     box_leak::main::main();
+
+    async_doc::main::main();
 }
