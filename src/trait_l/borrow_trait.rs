@@ -14,13 +14,23 @@ enum Sex {
     Woman,
 }
 
-struct WjhLike {
+pub struct WjhLike {
+    sex: Sex,
+}
+
+pub struct ASD {
     sex: Sex,
 }
 
 impl Thing for WjhLike {}
 
 impl People for WjhLike {
+    fn my_sex(&self) {
+        println!("my sex is: {:?}", self.sex);
+    }
+}
+
+impl People for ASD {
     fn my_sex(&self) {
         println!("my sex is: {:?}", self.sex);
     }
@@ -35,9 +45,11 @@ fn multiple_constraints(item: &(impl People + Thing)) {
     item.speak();
 }
 
-pub fn run_b() -> impl People + Thing {
+pub fn run_b() -> WjhLike {
     let wjh = WjhLike { sex: Sex::Man };
+    let asd = ASD { sex: Sex::Man };
     borrow_trait(&wjh);
+    borrow_trait(&asd);
     multiple_constraints(&wjh);
 
     wjh

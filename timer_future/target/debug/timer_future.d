@@ -1,0 +1,1 @@
+/Users/dorho/Desktop/rust-work-place/hello_macro/timer_future/target/debug/timer_future: /Users/dorho/Desktop/rust-work-place/hello_macro/timer_future/src/lib.rs /Users/dorho/Desktop/rust-work-place/hello_macro/timer_future/src/main.rs

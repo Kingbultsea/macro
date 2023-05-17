@@ -347,6 +347,7 @@ dependencies = [
  "hello_macro_derive",
  "lazy_static",
  "rocket",
+ "timer_future",
  "tokio",
 ]
 
@@ -1110,6 +1111,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fd80a657e71da814b8e5d60d3374fc6d35045062245d80224748ae522dd76f36"
 dependencies = [
  "time-core",
+]
+
+[[package]]
+name = "timer_future"
+version = "0.1.0"
+dependencies = [
+ "futures",
 ]
 
 [[package]]

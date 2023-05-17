@@ -24,7 +24,7 @@ struct Button {
 
 impl Draw for Button {
     fn draw(&self) {
-        print!("Buttton: {}", self.label);
+        println!("Buttton: {}", self.label);
     }
 }
 

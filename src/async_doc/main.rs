@@ -40,6 +40,6 @@ async fn async_main() {
     futures::join!(f1, f2);
 }
 
-fn main() {
+pub fn main() {
     block_on(async_main());
 }
