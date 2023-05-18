@@ -26,6 +26,8 @@ impl Future for TimerFuture {
     fn poll(self: Pin<&mut Self>, cx: &mut Context<'_>) -> Poll<Self::Output> {
         // 通过检查共享状态，来确定定时器是否已经完成
         let mut shared_state = self.shared_state.lock().unwrap();
+        
+        println!("被poll");
 
         if shared_state.completed {
             Poll::Ready(())
@@ -44,6 +46,7 @@ impl Future for TimerFuture {
 impl TimerFuture {
     /// 创建一个新的`TimerFuture`，在指定的时间结束后，该`Future`可以完成
     pub fn new(duration: Duration) -> Self {
+        println!("TimerFuture 被创建");
         let shared_state = Arc::new(Mutex::new(SharedState {
             completed: false,
             waker: None,
@@ -58,6 +61,7 @@ impl TimerFuture {
             // 通知执行器定时器已经完成，可以继续`poll`对应的`Future`了
             shared_state.completed = true;
             if let Some(waker) = shared_state.waker.take() {
+                println!("唤醒");
                 waker.wake()
             }
         });

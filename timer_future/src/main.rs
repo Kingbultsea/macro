@@ -84,12 +84,13 @@ impl Executor {
                 let waker = waker_ref(&task);
                 println!("2");
                 let context = &mut Context::from_waker(&*waker);
-                println!("3");
+                println!("3 调用poll");
                 // `BoxFuture<T>`是`Pin<Box<dyn Future<Output = T> + Send + 'static>>`的类型别名
                 // 通过调用`as_mut`方法，可以将上面的类型转换成`Pin<&mut dyn Future + Send + 'static>`
                 if future.as_mut().poll(context).is_pending() {
                     println!("4");
                     // Future还没执行完，因此将它放回任务中，等待下次被poll
+                    // 之所以再放回，是因为前面用了take()。但如果前面不用take()，这里也不用放回了
                     *future_slot = Some(future);
                 } else {
                     println!("5 else");
