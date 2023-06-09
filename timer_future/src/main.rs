@@ -74,6 +74,8 @@ impl ArcWake for Task {
 
 impl Executor {
     fn run(&self) {
+        // 会使线程进入阻塞状态，不会占用 CPU 资源。在这种情况下，线程会暂停执行，并等待通道中有新的任务可用时才被唤醒
+        // 代码中的self.ready_queue.recv()是一个阻塞操作，它会一直等待直到任务通道中有任务可用。当任务通道中有任务时，recv()方法会返回Ok(task)，从而结束阻塞状态。
         while let Ok(task) = self.ready_queue.recv() {
             println!("执行");
             // 获取一个future，若它还没有完成(仍然是Some，不是None)，则对它进行一次poll并尝试完成它

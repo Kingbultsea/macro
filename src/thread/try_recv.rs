@@ -6,6 +6,7 @@ pub fn main() {
     let (tx, rx) = mpsc::channel();
 
     thread::spawn(move || {
+        // 发送操作是同步的，意味着发送操作会阻塞当前线程直到值成功发送到通道或者出现错误。使用 unwrap() 可以立即获取发送操作的结果。
         tx.send(1).unwrap();
     });
 

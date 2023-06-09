@@ -110,4 +110,6 @@ fn main() {
     box_leak::main::main();
 
     async_doc::main::main();
+    
+    async_doc::select::main();
 }

@@ -43,3 +43,4 @@ async fn async_main() {
 pub fn main() {
     block_on(async_main());
 }
+
